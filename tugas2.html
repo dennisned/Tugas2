@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE GOAT</title>
+    <style>
+        /* General Reset and Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body, html {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: url('https://wallpapercat.com/w/full/5/f/0/100854-3840x2124-desktop-hd-cristiano-ronaldo-background-image.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        /* Main Content */
+        .content {
+            text-align: center;
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+            color:  #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .content h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        /* Statistics Table Styles */
+        .table-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            width: 320px;
+            color: #333;
+            transition: transform 0.3s ease;
+        }
+        .table-container:hover {
+            transform: scale(1.05);
+        }
+        .table-container h2 {
+            font-size: 16px;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #1d3f72;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+        }
+        td {
+            color: #333;
+            text-align: center;
+        }
+        td a {
+            color: #1d72b8;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        td a:hover {
+            color: #ff5722;
+        }
+
+        /* Button Styling */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #1d3f72;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .button:hover {
+            background-color: #0f294f;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- Welcome Content -->
+    <div class="content">
+        <h1>Selamat Datang Di Website THE GOAT</h1>
+        <p>Cristiano Ronaldo</p>
+    </div>
+
+    <!-- Statistics Table -->
+    <div class="table-container">
+        <h2>STATISTIK BERDASARKAN KLUB</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Klub</th>
+                    <th>Apps</th>
+                    <th>Goals</th>
+                    <th>Assists</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#">Real Madrid</a></td>
+                    <td>438</td>
+                    <td>450</td>
+                    <td>131</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Man Utd</a></td>
+                    <td>346</td>
+                    <td>145</td>
+                    <td>64</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Juventus</a></td>
+                    <td>134</td>
+                    <td>101</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Al-Nassr</a></td>
+                    <td>75</td>
+                    <td>67</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Sporting CP</a></td>
+                    <td>31</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
